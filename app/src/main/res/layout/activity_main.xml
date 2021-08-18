@@ -1,0 +1,2245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/covidbg">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="406dp"
+        android:layout_height="390dp"
+        android:layout_marginTop="205dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.35">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="103dp"
+            tools:layout_editor_absoluteY="439dp">
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Alabama"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@id/state1"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text="Alabama"
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/state1_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/state1_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/state1_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Alaska"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state2"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text="Alaska"
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/state2_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/state2_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state2_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Arizona"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state3"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text="Arizona"
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/state3_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/state3_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state3_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Arkansas"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state4"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text="Arkansas"
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <TextView
+                    android:id="@+id/state4_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/state4_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state4_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/California"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state5"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text="California"
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state5_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state5_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state5_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Colorado"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state6"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state6_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state6_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state6_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Connecticut"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state7"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state7_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state7_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state7_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Delaware"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state8"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state8_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state8_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state8_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Florida"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state9"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state9_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state9_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state9_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Georgia"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state10"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state10_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state10_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state10_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Hawaii"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state11"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state11_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state11_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state11_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Idaho"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state12"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state12_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state12_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state12_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Illinois"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state13"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state13_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state13_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state13_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Indiana"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state14"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state14_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state14_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state14_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Iowa"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state15"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state15_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state15_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state15_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Kansas"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state16"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state16_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state16_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state16_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Kentucky"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state17"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state17_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state17_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state17_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Louisiana"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state18"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state18_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state18_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state18_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Maine"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state19"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state19_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state19_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state19_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Maryland"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state20"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state20_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state20_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state20_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Massachusetts"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state21"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state21_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state21_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state21_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Michigan"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state22"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state22_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state22_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state22_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Minnesota"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state23"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state23_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state23_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state23_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Mississippi"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state24"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state24_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state24_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state24_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Missouri"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state25"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state25_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state25_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state25_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Montana"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state26"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state26_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state26_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state26_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Nebraska"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state27"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state27_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state27_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state27_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Nevada"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state28"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state28_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state28_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state28_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/NewHampshire"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state29"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state29_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state29_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state29_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/NewJersey"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state30"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state30_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state30_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state30_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/NewMexico"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state31"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state31_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state31_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state31_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/NewYork"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state32"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state32_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state32_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state32_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/NorthCarolina"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state33"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state33_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state33_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state33_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/NorthDakota"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state34"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state34_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state34_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state34_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Ohio"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state35"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state35_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state35_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state35_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Oklahoma"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state36"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state36_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state36_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state36_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Oregon"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state37"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state37_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state37_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state37_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Pennsylvania"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state38"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state38_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state38_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state38_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/RhodeIsland"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state39"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state39_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state39_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state39_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/SouthCarolina"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state40"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state40_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state40_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state40_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/SouthDakota"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state41"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state41_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state41_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state41_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Tennessee"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state42"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state42_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state42_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state42_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Texas"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state43"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state43_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state43_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state43_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Utah"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state44"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state44_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state44_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state44_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Vermont"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state45"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state45_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state45_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state45_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Virginia"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state46"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state46_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state46_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state46_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Washington"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state47"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state47_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state47_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state47_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/WestVirginia"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state48"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state48_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state48_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state48_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Wisconsin"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state49"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state49_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state49_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state49_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/Wyoming"
+                android:layout_width="256dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#DFADAD"
+                app:cardCornerRadius="4dp">
+
+                <TextView
+                    android:id="@+id/state50"
+                    android:layout_width="match_parent"
+                    android:layout_height="41dp"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="#0C0C0C"
+                    android:textSize="30sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:id="@+id/state50_cases"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="40dp"
+                    android:text="Cases:"
+                    android:textAlignment="viewStart"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state50_deaths"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="90dp"
+                    android:text="Deaths:"
+                    android:textSize="25sp" />
+                <TextView
+                    android:id="@+id/state50_recovered"
+                    android:layout_width="match_parent"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="140dp"
+                    android:text="Recovered:"
+                    android:textSize="25sp" />
+            </androidx.cardview.widget.CardView>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
